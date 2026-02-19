@@ -15,9 +15,9 @@ This project helps banks and payment systems prevent financial fraud.
 
 ---
 
-## 🎥 Project Demo
+## 🎥 Project Demo link
 
-(https://drive.google.com/file/d/1UNy9muG1-pjfUGJdffpwODnnkgIkHEdP/view?usp=sharing)
+https://drive.google.com/file/d/10q-oyDYDTYIHc9IkOl9R-E6m5NEndvJi/view?usp=sharing
 
 ---
 
