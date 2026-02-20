@@ -38,26 +38,42 @@ https://drive.google.com/file/d/1Aa92p3RRUprqTfe5Q05E0YDp6Cs-IUcy/view?usp=shari
 ## 📁 Project Structure
 
 ```
-online payments fraud detection/
+online-payments-fraud-detection/
 │
-├── data/
-│   └── dataset_link        # Transaction dataset
+├── demo video/                         # Project demo recording
+│   └── demo_video.mp4
 │
-├── fraud_data.csv
+├── document/                           # Project phase documents
+│   ├── 1.Ideation Phase.pdf
+│   ├── 2.Requirement Analysis Phase.pdf
+│   ├── 3.Project Design Phase.pdf
+│   ├── 4.Project Planning Phase.pdf
+│   ├── 5.Project Development Phase.pdf
+│   ├── 6.Project Documentation.pdf
+│   └── 7.Project Demonstration Phase.pdf
 │
-├── templates/
-│   ├── home.html           # User input page
-│   ├── predict.html        # Prediction result page
+├── data/                               # Dataset folder
+│   └── dataset_link
+│
+├── templates/                          # Frontend HTML pages
+│   ├── home.html
+│   ├── predict.html
 │   └── submit.html
 │
-├── app.py                  # Main Flask application
-├── payments.pkl            # Trained machine learning model
+├── static/                             # CSS / static files
+│   └── style.css
 │
-├── training/
-│   ├── Online Payment Fraud Detection.ipynb   # Model training notebook
-│   └── payments.pkl        # Saved model after training
+├── training/                           # Model training files
+│   ├── Online Payment Fraud Detection.ipynb
+│   └── payments.pkl
 │
-└── README.md
+├── fraud_data.csv                      # Dataset file
+├── balanced_dataset.csv                # Processed dataset
+├── app.py                              # Flask main application
+├── fraud_predict.py                    # Prediction script
+├── payments.pkl                        # Final trained model
+├── README.md                           # Project documentation
+└── .gitignore
 ```
 
 ---
